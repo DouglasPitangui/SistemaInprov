@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/08/2014, 21:23:44
+    Author     : JoãoAndré
+*/
+
+::-webkit-input-placeholder { color:#BDB8B8 !important; }
+::-moz-placeholder { color:#BDB8B8 !important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#BDB8B8 !important; } /* ie */
+:-moz-placeholder { color:#BDB8B8 !important; }
+
+@font-face {
+    font-family: 'benderblack';
+    src: url('../fonts/bender/bender_black-webfont.eot');
+    src: url('../fonts/bender/bender_black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bender/bender_black-webfont.woff') format('woff'),
+        url('../fonts/bender/bender_black-webfont.ttf') format('truetype'),
+        url('../fonts/bender/bender_black-webfont.svg#benderblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'benderblack_italic';
+    src: url('../fonts/bender/bender_black_italic-webfont.eot');
+    src: url('../fonts/bender/bender_black_italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bender/bender_black_italic-webfont.woff') format('woff'),
+        url('../fonts/bender/bender_black_italic-webfont.ttf') format('truetype'),
+        url('../fonts/bender/bender_black_italic-webfont.svg#benderblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'benderlight';
+    src: url('../fonts/bender/bender_light-webfont.eot');
+    src: url('../fonts/bender/bender_light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bender/bender_light-webfont.woff') format('woff'),
+        url('../fonts/bender/bender_light-webfont.ttf') format('truetype'),
+        url('../fonts/bender/bender_light-webfont.svg#benderlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'benderlight_italic';
+    src: url('../fonts/bender/bender_light_italic-webfont.eot');
+    src: url('../fonts/bender/bender_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bender/bender_light_italic-webfont.woff') format('woff'),
+        url('../fonts/bender/bender_light_italic-webfont.ttf') format('truetype'),
+        url('../fonts/bender/bender_light_italic-webfont.svg#benderlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'bender';
+    src:url("../fonts/bender/bender.eot") format("eot");
+    src:url("../fonts/bender/bender.eot?#iefix") format('embedded-opentype'),
+        url("../fonts/bender/bender.woff") format("woff"),
+        url("../fonts/bender/bender.ttf") format("truetype"),
+        url("../fonts/bender/bender.svg#bender") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto/roboto-italic.eot');
+    src: url('../fonts/roboto/roboto-italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto/roboto-italic.woff') format('woff'),
+        url('../fonts/roboto/roboto-italic.ttf') format('truetype'),
+        url('../fonts/roboto/roboto-italic.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto/roboto-light-webfont.eot');
+    src: url('../fonts/roboto/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto/roboto-light-webfont.woff') format('woff'),
+        url('../fonts/roboto/roboto-light-webfont.ttf') format('truetype'),
+        url('../fonts/roboto/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto/roboto-regular-webfont.woff') format('woff'),
+        url('../fonts/roboto/roboto-regular-webfont.ttf') format('truetype'),
+        url('../fonts/roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bender_bold';
+    src: url('../fonts/bender/bender_bold.eot');
+    src: url('../fonts/bender/bender_bold.eot') format('embedded-opentype'),
+        url('../fonts/bender/bender_bold.woff') format('woff'),
+        url('../fonts/bender/bender_bold.ttf') format('truetype'),
+        url('../fonts/bender/bender_bold.svg#BenderBold') format('svg');
+}
+
+@font-face {
+    font-family: 'bender_bold_italic';
+    src: url('../fonts/bender/bender_bold_italic.eot');
+    src: url('../fonts/bender/bender_bold_italic.eot') format('embedded-opentype'),
+        url('../fonts/bender/bender_bold_italic.woff') format('woff'),
+        url('../fonts/bender/bender_bold_italic.ttf') format('truetype'),
+        url('../fonts/bender/bender_bold_italic.svg#BenderBoldItalic') format('svg');
+}

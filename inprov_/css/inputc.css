@@ -1,0 +1,122 @@
+
+input[type='checkbox']::-ms-check {
+    background-image: url('../img/check.png');
+    background-repeat: no-repeat;
+    border: none;
+    border: 1px solid #00824c;
+}
+input[type='checkbox']:checked::-ms-check{
+    color: tranparent;
+    background: black;
+    padding: 1.4em;
+
+    /*                appearance: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    -ms-progress-appearance: none;*/
+    background-image: url('../img/checked.png');
+    background-position-x: -1px;
+}
+/*            input[type='checkbox']:checked::-ms-expand  {
+                background-image: url('../img/checked.png');
+            }*/
+input[type='checkbox'] {
+    /*text-overflow: ''; /*this is important!*/ 
+    /*-ms-progress-appearance: none;*/
+    appearance: none; /* CSS3 */	
+
+    -webkit-appearance: none; /* Safari and Chrome */
+
+    //-moz-appearance: none; /* Firefox */
+    //-moz-transition-duration: 1.00s;
+
+    -ms-appearance: none; /* Internet Explorer */
+
+    -o-appearance: none; /* Opera */
+
+    /*    transition-duration: 1.00s;
+        -webkit-transition-duration: 1.00s;
+        -o-transition-duration: 1.00s;*/
+
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    background-image: url('../img/check.png');
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
+    background-position: 0;
+    background-size: 100%;
+    border: 1px solid;
+    border: none;
+    border: 1px solid #00824c;
+    border-radius: 0;
+}
+/*            *{ // https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance
+                -moz-appearance: -moz-win-exclude-glass; // Windows Vista and later only. This styles is used to exclude the Aero Glass effect on the element.
+            }*/
+input[type='checkbox']:checked{
+    background-image: url('../img/checked.png');
+    /*    transition-duration: 1.00s;
+    
+        -webkit-transform: rotate(-45deg);
+        -webkit-transition-duration: 1.00s;
+    
+        //-moz-transform: rotate(-45deg);
+        //-moz-transition-duration: 1.00s;
+    
+        -ms-transform: rotate(-45deg);
+    
+        -o-transition: rotate(-45deg);
+        -o-transition-duration: 1.00s;*/
+}
+
+
+.radio, .checkbox {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="radio"] {
+    /* display: none; */
+    appearance: none; /* CSS3 */	
+
+    -webkit-appearance: none; /* Safari and Chrome */
+
+    //-moz-appearance: none; /* Firefox */
+    //-moz-transition-duration: 1.00s;
+
+    -ms-appearance: none; /* Internet Explorer */
+
+    -o-appearance: none; /* Opera */
+    
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    background:url('../img/aero.png') 0 -45px no-repeat;
+    background-size: 100%;
+}
+input[type="radio"]:checked {
+    background:url('../img/aero.png') 0 -30px no-repeat;
+}
+
+input[type="radio"] + label {
+    color: #666;
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="radio"] + label span {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+
+    width: 15px;
+    height: 15px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background:url('../img/aero.png') 0 -45px no-repeat;
+}
+
+input[type="radio"]:checked + label span {
+    background:url('../img/aero.png') 0 -30px no-repeat;
+}

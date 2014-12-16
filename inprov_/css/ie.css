@@ -1,0 +1,122 @@
+  /*!
+   * DWV - Desenho Web Vitória
+   *
+   * Copyright 2014, DWV - http://www.desenhowebvitoria.com.br
+   */
+ 
+/*IE-8,9*/
+
+.widget-cart {
+	width: 100%;
+}
+.content, .header {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: block;
+} 
+#footer .footer-col,
+.product-catalog .catalog-item {
+	float: left;
+	width: 25%;
+	display: block;
+}
+.catalog-tablet-menu,
+.header-tablet {
+	display: none !important;
+}
+.header-logo {
+	width: 16.666%;
+	display: block;
+	float: left;
+}
+.header-menu {
+	width: 83.33333333333334%;
+	display: block;
+	float: right;
+}
+.search-panel,
+.main-menu {
+	width: 83.33333333333334%;
+	float: left;
+	display: block;	
+}
+.main-menu li {
+	padding: 0;
+	margin-left: 0;
+}
+.change-local-wrapper {
+	width: 16.666% !important;
+	float: right;
+	display: block;
+}
+.change-local-wrapper .change-currency {
+	margin: 0;
+	padding: 0;
+	max-width: 200px;
+}
+.change-local-wrapper .change-currency .btn {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.search-panel .search-field .search-button .search-button-icon {
+	position: absolute;
+	top: -5px;
+}
+/* ----> sketch gallery */
+.sketch-gallery.default {
+	display: none;
+}
+.sketch-gallery.visible-ie {
+    display: block !important;
+    margin: 20px 0 20px 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.sketch-gallery .one-imgs,
+.sketch-gallery .two-imgs {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 50%;
+}
+.sketch-gallery .two-imgs .sketch-image {
+    float: left;
+    width: 50%;
+}
+.sketch-gallery .one-imgs .sketch-image {
+    width: 100%;
+    float: right;
+}
+.sketch-gallery .sketch-image {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    min-height: 300px;
+}
+.sketch-gallery .sketch-image a {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}
+.sketch-gallery h4 {
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'benderlight_italic', sans-serif;
+    padding: 0 40px 0 32px;
+    margin-top: 33px;
+    line-height: 1;
+}
+.sketch-gallery .sketch-image h4 strong {
+
+   font-family: 'benderblack_italic', sans-serif;
+}
+.sketch-gallery .black-text {
+    color: #000;
+}
+
+/* <---- sketch gallery */

@@ -1,0 +1,18 @@
+.tooltipster-light-noir {
+    border-radius: 5px; 
+    border: 1px solid #cccccc;
+    background: #ededed;
+    color: #666666;
+
+    border-radius: 0px; 
+    border: 3px solid #2c2c2c;
+    /*background: #fff;*/
+    color: #2c2c2c;
+}
+.tooltipster-light-noir .tooltipster-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+    padding: 5px;
+}

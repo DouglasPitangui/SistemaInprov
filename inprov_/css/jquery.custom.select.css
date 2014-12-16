@@ -1,0 +1,261 @@
+  /*!
+   * DWV - Desenho Web Vitória
+   *
+   * Copyright 2014, DWV - http://www.desenhowebvitoria.com.br
+   */
+ 
+ .ui-selectmenu-menu {
+    position:absolute;
+    top:0;
+    display:none;
+    margin:0;
+    padding:0;
+}
+
+.ui-selectmenu-menu ul.ui-menu {
+    padding-top:8px;
+    overflow:auto;
+    overflow-y:auto;
+    overflow-x:hidden;
+    background: #00824c;
+    border: 0;
+    width: 123px;
+    height: 130px;
+    margin-top: 6px;
+}
+.ui-selectmenu-menu .select-corner {
+    background: url('../img/select-arrow-dropdown.png') no-repeat;
+    width: 7px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 20px;
+}
+.ui-selectmenu-menu .ui-menu .ui-menu-item a {
+    color:#333333;
+    font-size:14px;
+}
+
+.ui-selectmenu-menu .ui-menu li.ui-selectmenu-optgroup {
+    font-size:1em;
+    font-weight:700;
+    line-height:1.5;
+    height:auto;
+    border:0;
+    margin:.5em 0 0;
+    padding:2px .4em;
+}
+
+.ui-selectmenu-open {
+    display:block;
+}
+
+.b-search-extended-holder .ui-selectmenu-button,.b-search-extended-holder .ui-button {
+    display:block;
+    width:230px!important;
+}
+
+.search-filter .ui-button {
+    display:block;
+    width:100%!important;
+}
+
+.ui-selectmenu-button {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:3px;
+}
+
+.b-search-extended-holder .ui-selectmenu-button,.search-filter .ui-selectmenu-button {
+    display:block;
+    font-size:12px!important;
+    background:#fff;
+    border:0 none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:inset 0 1px 3px 0 rgba(0,0,0,0.7);
+    -webkit-box-shadow:inset 0 1px 3px 0 rgba(0,0,0,0.7);
+    box-shadow:inset 0 1px 3px 0 rgba(0,0,0,0.7);
+    margin:0;
+}
+
+.ui-selectmenu-button a.ui-button {
+    display:block;
+    overflow:hidden;
+    position:relative;
+    text-decoration:none;
+}
+
+.ui-selectmenu-button span.ui-icon {
+    display: none;
+    z-index:777;
+    right:.5em;
+    left:auto;
+    margin-top:-8px;
+    position:absolute;
+    top:15px;
+    background:url(../img/select-arrow.png) no-repeat 0 -20px;
+    width:20px;
+    height:20px;
+}
+
+.ui-corner-top .ui-icon {
+    background-position:0 0!important;
+}
+
+.ui-selectmenu-button span.ui-selectmenu-text {
+    font-size:14px;
+    z-index:9999;
+    position:relative;
+    font-family: 'bender', sans-serif;
+    text-align:left;
+    display:block;
+    background:url(../img/select-arrow.png) 100% 50% no-repeat;
+    color: #333333;
+    margin:0 3px;
+    padding:2px 8px;
+}
+.ui-corner-top span.ui-selectmenu-text {
+    background:url(../img/select-arrow-up.png) 100% 50% no-repeat;
+}
+
+.ui-menu {
+    list-style:none;
+    display:block;
+    outline:none;
+    max-height:300px;
+    border-top:none;
+
+    margin:1px 0 0;
+    padding:0 10px 10px;
+    border-radius: 0;
+}
+
+.ui-menu .ui-menu {
+    margin-top:-3px;
+    position:absolute;
+}
+
+.ui-menu .ui-menu-item {
+    zoom:1;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.ui-menu .ui-menu-divider {
+    height:0;
+    font-size:0;
+    line-height:0;
+    border-width:1px 0 0;
+    margin:5px -2px;
+}
+
+.ui-menu .ui-menu-item a {
+    text-decoration:none;
+    display:block;
+    zoom:1;
+
+    font-family: 'bender', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus,.ui-menu .ui-menu-item a.ui-state-active {
+
+    text-decoration: underline;
+}
+
+.ui-menu .ui-state-disabled {
+    font-weight:400;
+    line-height:1.5;
+    margin:.4em 0 .2em;
+}
+
+.ui-menu .ui-state-disabled a {
+    cursor:default;
+}
+
+.ui-menu-icons {
+    position:relative;
+}
+
+.ui-menu-icons .ui-menu-item a {
+    position:relative;
+    padding-left:2em;
+}
+
+.ui-menu .ui-icon {
+    position:absolute;
+    top:.2em;
+    left:.2em;
+}
+
+.ui-menu .ui-menu-icon {
+    position:static;
+    float:right;
+}
+
+.ui-helper-hidden {
+    display:none;
+}
+
+.ui-helper-hidden-accessible {
+    position:absolute!important;
+    clip:rect(1px,1px,1px,1px);
+}
+
+.ui-helper-reset {
+    border:0;
+    outline:0;
+    line-height:1.3;
+    text-decoration:none;
+    font-size:100%;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.ui-helper-clearfix:before,.ui-helper-clearfix:after {
+    content:"";
+    display:table;
+}
+
+.ui-helper-clearfix:after {
+    clear:both;
+}
+
+.ui-helper-clearfix {
+    zoom:1;
+}
+
+.ui-helper-zfix {
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+    opacity:0;
+    filter:Alpha(Opacity=0);
+}
+
+.ui-state-disabled {
+    cursor:default!important;
+}
+
+.ui-icon {
+    display:block;
+    text-indent:-99999px;
+    overflow:hidden;
+    background-repeat:no-repeat;
+}
+
+.ui-widget-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}

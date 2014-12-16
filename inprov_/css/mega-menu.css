@@ -1,0 +1,281 @@
+/*!
+ * DWV - Desenho Web Vitória
+ *
+ * Copyright 2014, DWV - http://www.desenhowebvitoria.com.br
+ */
+
+.main-menu,
+.main-menu a,
+.main-menu ul,
+.main-menu li,
+.main-menu div,
+.main-menu form,
+.main-menu input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.main-menu a { text-decoration: none; }
+.main-menu li { list-style: none; }
+.main-menu {
+    position: relative;
+    cursor: default;
+    z-index: 500;
+    font-weight: bold;
+}
+
+.main-menu > li {
+    display: block;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'benderblack', sans-serif !important;
+
+}
+
+.main-menu > li > a {
+    position: relative;
+    display: block;
+    z-index: 510;
+    height: 54px;
+    height: 67px;
+    padding: 3px 22px;
+    line-height: 54px;
+    line-height: 67px;
+
+
+    font-size: 13px;
+    color: #fcfcfc;
+
+    color: #000;
+    background: #FFF;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    
+    font-family: 'benderblack', sans-serif;
+}
+
+.main-menu > li.active > a,
+.main-menu > li:hover > a { 
+    color: #FFF;	
+    background: #00824c; 
+}
+
+.main-menu > li:first-child > a {
+    border-left: none;
+}
+
+.main-menu > li.main-menu-search > form {
+    position: relative;
+    width: inherit;
+    height: 54px;
+    z-index: 510;
+    border-left: 1px solid #4b4441;
+}
+
+.main-menu > li.main-menu-search input[type="submit"] {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 54px;
+    padding: 0 25px;
+    cursor: pointer;
+    background: #372f2b url(../img/search-icon.png) no-repeat center center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.main-menu > li.main-menu-search input[type="submit"]:hover { 
+    background-color: #4b4441;
+}
+
+.main-menu > li > div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 54px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    background: #1b1e23;
+}
+
+.main-menu > li:hover > div {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+}
+
+.main-menu .main-menu-column {
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+.main-menu .main-menu-column.menu-2 {
+    width: 33.33333333%;
+}
+
+.main-menu .main-menu-column h3 {
+    margin: 20px 0 10px 0;
+    line-height: 18px; 
+    font-family: 'benderblack', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-menu .main-menu-column h3.orange { 
+    color: #ff722b;
+}
+
+.main-menu .main-menu-column li a {
+    display: block;
+    line-height: 26px;
+    font-family: 'benderblack', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #fff;
+    text-transform: none;
+    clear: both;
+    padding: 25px;
+}
+
+.main-menu .main-menu-column li:first-child {
+    padding-top: 25px;
+}
+
+.main-menu .main-menu-column li b {
+    /*border-bottom: 1px solid #2c2e31;*/
+    display: block;
+    width: 100%	
+}
+
+.main-menu .main-menu-column li span.img-prod {
+    margin-right: 10px;
+    width: 45px;
+    height: 36px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.main-menu .main-menu-column li span.prod {
+    line-height: 37px
+}
+
+.main-menu .main-menu-column li .img-prod img {
+    width: 45px;
+    height: auto;
+}
+
+.main-menu .main-menu-column li b:hover {
+}
+
+.main-menu .main-menu-column li {
+    margin-top: -25px;
+}
+
+.main-menu .main-menu-column li a:hover {
+    color: #fff;
+}
+
+.main-menu .main-menu-column li.active a, .main-menu .main-menu-column li:hover {
+    background: #17c7be;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.main-menu .main-menu-column.menu-2 li:hover,
+.main-menu .main-menu-column.menu-2 a:hover {
+    color: #17c7be;
+    background: none;
+}
+
+.main-menu .main-menu-column.main-menu-column-last {
+    background: #000;
+    padding: 25px;
+}
+
+.main-menu .main-menu-column.menu-2 .set {
+    border-bottom: 1px solid #333;
+    margin: 20px;
+    display: block;
+}
+
+.main-menu .main-menu-column.menu-2 h4 {
+    margin: 0;
+}
+
+.main-menu .main-menu-column.main-menu-column-last li:hover {
+    background: none;
+}
+
+.main-menu .main-menu-column.menu-2 a {
+    padding: 0 0 20px 0;
+    font-family: 'robotoregular', sans-serif;
+    color: #999;
+}
+
+.main-menu .main-menu-column.menu-2 h4 a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: block;
+    font-family: 'benderblack', sans-serif;
+}
+
+.main-menu .main-menu-column.menu-2 h4 a:hover {
+    color: #17C7BE;
+}
+
+.main-menu .main-menu-column.main-menu-column-last h4 {
+    text-transform: none;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.main-menu .main-menu-column.main-menu-column-last a {
+    padding: 0; 
+}
+
+.main-menu .main-menu-column.main-menu-column-last a img {
+    max-height: 160px;
+    margin: 10px 0 25px 0;
+}
+
+.main-menu .main-menu-column.main-menu-column-last a.prod-name {
+    font-size: 18px;   
+}
+
+.main-menu .main-menu-column.main-menu-column-last a.prod-name:hover {
+    color: #17C7BE;   
+    text-decoration: underline;
+}
+
+.main-menu .main-menu-column.menu-2 .link-more,
+.main-menu .main-menu-column .link-more {
+    text-transform: none;
+    padding: 0 0 0 25px;
+    color: #787878;
+    font-style: italic;
+    font-family: 'benderblack', sans-serif;
+}
+
+.main-menu .main-menu-column .link-more:hover {
+    color: #ccc;
+}
